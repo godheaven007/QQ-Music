@@ -1,0 +1,23 @@
+.header {
+    position: relative;
+    height: 44px;
+    background: $bgColor;
+    h1{
+        height: 44px;
+        text-indent: -9999px;
+        background: url(../imgs/logo.png) no-repeat 10px center;
+        background-size: 90px 25px;
+    }
+    .download {
+        position: absolute;
+        right: 10px;
+        top: 8px;
+        height: 28px;
+        line-height: 28px;
+        padding: 0 12px;
+        border-radius: 99px;
+        font-size: 14px;
+        background: $bgColor2;
+        color: #fff;
+    }
+}
